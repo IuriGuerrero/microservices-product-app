@@ -1,4 +1,4 @@
-package me.zwoosks.product_service.common.aspect;
+package me.iguerrero.product_service.common.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import me.zwoosks.product_service.entities.Product;
+import me.iguerrero.product_service.entities.Product;
 
 
 @Aspect

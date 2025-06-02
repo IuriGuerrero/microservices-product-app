@@ -1,4 +1,4 @@
-package me.zwoosks.product_service.entities;
+package me.iguerrero.product_service.entities;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package me.zwoosks.product_service.controllers;
+package me.iguerrero.product_service.controllers;
 
 import java.time.LocalDateTime;
 import java.util.Set;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.validation.Valid;
-import me.zwoosks.product_service.common.dtos.ApiResponse;
-import me.zwoosks.product_service.common.dtos.ProductRequest;
-import me.zwoosks.product_service.common.dtos.ProductResponse;
-import me.zwoosks.product_service.services.IProductService;
+import me.iguerrero.product_service.common.dto.ApiResponse;
+import me.iguerrero.product_service.common.dto.ProductRequest;
+import me.iguerrero.product_service.common.dto.ProductResponse;
+import me.iguerrero.product_service.services.IProductService;
 
 @RestController
 @RequestMapping("/api/product")

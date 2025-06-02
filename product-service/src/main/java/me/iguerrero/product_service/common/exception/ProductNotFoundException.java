@@ -1,4 +1,4 @@
-package me.zwoosks.product_service.common.exception;
+package me.iguerrero.product_service.common.exception;
 
 public class ProductNotFoundException extends ApplicationException {
 

@@ -1,4 +1,4 @@
-package me.zwoosks.product_service.services;
+package me.iguerrero.product_service.services;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,12 +6,12 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import me.zwoosks.product_service.common.dtos.ProductRequest;
-import me.zwoosks.product_service.common.dtos.ProductResponse;
-import me.zwoosks.product_service.common.exception.ProductNotFoundException;
-import me.zwoosks.product_service.common.mapper.ProductMapper;
-import me.zwoosks.product_service.entities.Product;
-import me.zwoosks.product_service.repositories.ProductRepository;
+import me.iguerrero.product_service.common.dto.ProductRequest;
+import me.iguerrero.product_service.common.dto.ProductResponse;
+import me.iguerrero.product_service.common.exception.ProductNotFoundException;
+import me.iguerrero.product_service.common.mapper.ProductMapper;
+import me.iguerrero.product_service.entities.Product;
+import me.iguerrero.product_service.repositories.ProductRepository;
 
 @Service
 public class ProductServiceImpl implements IProductService {

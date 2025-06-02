@@ -1,4 +1,4 @@
-package me.zwoosks.product_service.common.dtos;
+package me.iguerrero.product_service.common.dto;
 
 import java.time.LocalDateTime;
 

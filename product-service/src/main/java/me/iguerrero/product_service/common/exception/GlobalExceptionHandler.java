@@ -1,4 +1,4 @@
-package me.zwoosks.product_service.common.exception;
+package me.iguerrero.product_service.common.exception;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
 import jakarta.validation.ConstraintViolationException;
-import me.zwoosks.product_service.common.dtos.ApiResponse;
+import me.iguerrero.product_service.common.dto.ApiResponse;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

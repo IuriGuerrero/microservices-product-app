@@ -1,4 +1,4 @@
-package me.zwoosks.product_service;
+package me.iguerrero.product_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

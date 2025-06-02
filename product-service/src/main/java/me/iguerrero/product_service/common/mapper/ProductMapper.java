@@ -1,13 +1,13 @@
-package me.zwoosks.product_service.common.mapper;
+package me.iguerrero.product_service.common.mapper;
 
 import java.util.Set;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-import me.zwoosks.product_service.common.dtos.ProductRequest;
-import me.zwoosks.product_service.common.dtos.ProductResponse;
-import me.zwoosks.product_service.entities.Product;
+import me.iguerrero.product_service.common.dto.ProductRequest;
+import me.iguerrero.product_service.common.dto.ProductResponse;
+import me.iguerrero.product_service.entities.Product;
 
 @Mapper(componentModel = "spring")
 public interface ProductMapper {

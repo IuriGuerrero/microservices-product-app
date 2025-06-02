@@ -1,9 +1,9 @@
-package me.zwoosks.product_service.services;
+package me.iguerrero.product_service.services;
 
 import java.util.Set;
 
-import me.zwoosks.product_service.common.dtos.ProductRequest;
-import me.zwoosks.product_service.common.dtos.ProductResponse;
+import me.iguerrero.product_service.common.dto.ProductRequest;
+import me.iguerrero.product_service.common.dto.ProductResponse;
 
 public interface IProductService {
 
