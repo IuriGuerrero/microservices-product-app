@@ -30,3 +30,12 @@ List of all the endpoints, ordered by microservice
 -- Update an existing order
 - DELETE - /api/order/{id}
 -- Delete an existing order
+
+## inventory-service endpoints
+- GET - /api/inventory (RequestBody skuCode, quantity)
+-- Check if an item is in stock
+- GET - /api/inventory/{skuCode}
+-- Return the stock of the specified item
+- POST - /api/inventory/ (RequestBody skuCode, quantity)
+-- Create a new item with the specified quantity.
+- TODO: PUT (aupdate), PATCH add, PATCH remove, DELETE, GET (all). Not necessary for this microservices example.
